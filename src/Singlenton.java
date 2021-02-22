@@ -1,2 +1,5 @@
-public class Singlenton {
+public class Singleton {
+    public Calculadora calculadora(){
+        return new Calculadora();
+    }
 }
