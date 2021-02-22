@@ -20,7 +20,7 @@ public class postFix {
         return -1; 
     } 
 
-    private static String convert(String infix){
+    public static String convert(String infix){
         // Inicializar String Vacio por Resultado
         String postfix = new String(""); 
           
