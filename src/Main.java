@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 
 
+
 public class Main {
     public static void main(String[]args){
         
@@ -57,26 +58,45 @@ public class Main {
         
             
         String datos = "";
+        String postfix ="";
         try {
             Scanner input = new Scanner(new File("datos.txt"));
             int cont = 0;
             while (input.hasNextLine()) {
                 datos = input.nextLine();
-                postFix(datos);
+                postfix = postFix.convert(datos);
+
+                System.out.println("\n\t\t Expresion InFix: "+datos);
+                System.out.println("\t\t Expresion PostFix: "+postfix);
+                
+                StackFactory<Integer> imp = new StackFactory<Integer>();
+
+                if(res == 1 || res == 2){
+                    Stack<Integer> operacion = imp.getStack(res,res2);
+
+                    Singleton c = new Singleton();
+                    Calculadora calculadora = c.calculadora();
+                    System.out.println("\n\t\t Resultado : "+calculadora.calculoStack(operacion, postfix));
+
+                }else{
+
+                    List<Integer> operacion = imp.getList(res,res2);
+
+                    Singleton c = new Singleton();
+                    Calculadora calculadora = c.calculadora();
+                    System.out.println("\n\t\t Resultado : "+calculadora.calculoList(operacion, postfix));
+                }
+                
             }
             input.close();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
 
-        System.out.println(datos);
+        
+        
 
     }
 
-    private static String postFix(String infix){
-
-
-
-        return "";
-    }
+    
 }
