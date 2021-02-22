@@ -8,7 +8,7 @@ public class Doble<E> implements List<E>{
     public boolean isEmpty(){
         return true;
     }
-    // post: returns true iff list has no elements
+    // post: returns true iff list has no elements.
  
     public E getLast(){
         return null;
