@@ -13,4 +13,5 @@ public interface Stack<E> {
 
     /** Retorna el tamaño*/
     public int size();
+
 }
