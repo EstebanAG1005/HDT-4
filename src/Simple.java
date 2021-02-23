@@ -9,7 +9,7 @@ public class Simple<E> implements List<E>{
     public boolean isEmpty(){
         return false;
     }
-    // post: returns true iff list has no elements
+    // post: returns true iff list has no elements.
  
     public E getLast(){
         return null;
