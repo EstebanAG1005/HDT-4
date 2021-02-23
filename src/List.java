@@ -4,9 +4,6 @@ public interface List<E>{
     public int size();
     // post: returns number of elements in list
  
-    public boolean isEmpty();
-    // post: returns true iff list has no elements
- 
     public E getLast();
     // pre: list is not empty
     // post: returns last value in list

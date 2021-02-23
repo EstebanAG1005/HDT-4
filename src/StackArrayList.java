@@ -1,6 +1,6 @@
 import java.util.ArrayList;
   
-public class StackArrayList<E> implements Stack<E> {
+public class StackArrayList<E> extends AbsStack<E> {
 
     public ArrayList<E> array;
 
@@ -44,11 +44,7 @@ public class StackArrayList<E> implements Stack<E> {
         }
     }
      //Ver si esta vacio el Stack o no
-     @Override
-     public boolean empty() {
- 
-         return array.isEmpty();
-     }
+     
  
      //Tamaño del Stack
      @Override

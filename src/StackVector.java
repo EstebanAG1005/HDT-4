@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class StackVector<E> implements Stack<E> {
+public class StackVector<E> extends AbsStack<E> {
 
     public Vector<E> vector;
 
@@ -46,12 +46,7 @@ public class StackVector<E> implements Stack<E> {
         }
     }
 
-    //Ver si esta vacio el Stack o no
-    @Override
-    public boolean empty() {
-
-        return vector.isEmpty();
-    }
+    
 
     //Tamaño del Stack
     @Override
