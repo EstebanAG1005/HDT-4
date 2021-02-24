@@ -1,6 +1,15 @@
+/**
+*@author Juan Diego Avila 20090
+*@author Esteban Aldana 20591
+*@author Diego José Franco 20240
+*/
+
 import java.util.Vector;
 
 public class StackVector<E> extends AbsStack<E> {
+    /**
+     * Clase que implementa los Metodos de Stack para hacer uso con Vector
+     */
 
     public Vector<E> vector;
 
@@ -48,7 +57,7 @@ public class StackVector<E> extends AbsStack<E> {
 
     
 
-    //Tamaño del Stack
+    //Regresa el Tamaño del Stack
     @Override
     public int size() {
 

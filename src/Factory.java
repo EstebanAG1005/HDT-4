@@ -1,4 +1,12 @@
-public class StackFactory <E>{
+/**
+*@author Juan Diego Avila 20090
+*@author Esteban Aldana 20591
+*@author Diego José Franco 20240
+*/
+public class Factory <E>{
+    /**
+     * Clase que se encarga de devolver una unica instancia del almacenamiento con la cual se trabajara.
+     */
     //selecciona la implementacion a utilizar para un stack
 //se utiliza el patron Factory
    public Stack<E> getStack(int resp1, int resp2) {
@@ -21,11 +29,6 @@ public class StackFactory <E>{
         }
         return null;
     }
-   
-
-   
 }
       
-
-
 
