@@ -1,6 +1,15 @@
+/**
+*@author Juan Diego Avila 20090
+*@author Esteban Aldana 20591
+*@author Diego José Franco 20240
+*/
+
 import java.util.Stack;
 
 public class postFix {
+    /**
+     * Clase encargada de convertir entrada infix a postfix
+     */
 
     static int Prec(char ch) 
     { 
@@ -64,7 +73,7 @@ public class postFix {
        
         } 
        
-        // pop all the operators from the stack 
+        // hace pop a los operandos del stack
         while (!stack.isEmpty()){ 
             if(stack.peek() == '(') 
                 return "Invalid Expression"; 

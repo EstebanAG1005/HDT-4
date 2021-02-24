@@ -1,9 +1,18 @@
 import java.io.*;
 import java.util.Scanner;
 
-
+/**
+*@author Juan Diego Avila 20090
+*@author Esteban Aldana 20591
+*@author Diego José Franco 20240
+*/
 
 public class Main {
+    /**
+     *Metodo main del programa
+     *@param String[] args
+     */
+
     public static void main(String[]args){
         
         Scanner s = new Scanner(System.in);
@@ -69,7 +78,7 @@ public class Main {
                 System.out.println("\n\t\t Expresion InFix: "+datos);
                 System.out.println("\t\t Expresion PostFix: "+postfix);
                 
-                StackFactory<Integer> imp = new StackFactory<Integer>();
+                Factory<Integer> imp = new Factory<Integer>();
 
                 if(res == 1 || res == 2){
                     Stack<Integer> operacion = imp.getStack(res,res2);

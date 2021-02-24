@@ -1,6 +1,12 @@
+/**
+*@author Juan Diego Avila 20090
+*@author Esteban Aldana 20591
+*@author Diego José Franco 20240
+*/
 public class Calculadora {
-   
-    public Stack<Integer> stack;
+    /**
+     * Clase que recibe una operacion que la va trabajando por medio de stacks o lists para regresar el resultado.
+     */
 
     
     public String calculoStack(Stack<Integer> stack, String datos) {
@@ -40,7 +46,7 @@ public class Calculadora {
         //for para realizar las operaciones 
         for(char c: ch) {
           if(c >= '0' && c <= '9') {
-            list.add((int)(c - '0'));
+            list.addLast((int)(c - '0'));
           } else {
             y = list.getLast();
             list.removeLast();
@@ -48,16 +54,16 @@ public class Calculadora {
             list.removeLast();
             switch(c) {
               case '+':
-                list.add(x+y);
+                list.addLast(x+y);
                 break;
               case '-':
-                list.add(x-y);
+                list.addLast(x-y);
                 break;
               case '*':
-                list.add(x*y);
+                list.addLast(x*y);
                 break;
               case '/':
-                list.add(x/y);
+                list.addLast(x/y);
                 break;
             }
           }
@@ -65,6 +71,8 @@ public class Calculadora {
         String respuesta = list.getLast()+"";
         list.removeLast();
         return respuesta;
+
+
         
     }
 
