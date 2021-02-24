@@ -1,28 +1,84 @@
-public class Doble<E> implements List<E>{
-    public int size(){
+/**
+*@author Juan Diego Avila 20090
+*@author Esteban Aldana 20591
+*@author Diego José Franco 20240
+*/
+public class Doble<E> extends AbsList<E>{
+    /**
+     * Implementa los metodos de list para poder almacenar datos de forma encadenada doble.
+     */
 
-        return 0;
+    protected int count;
+    protected DoubleLinkedNode<E> head;
+    protected DoubleLinkedNode<E> tail;
+
+
+    public Doble(){
+        head = null;
+        tail = null;
+        count = 0;
     }
-    // post: returns number of elements in list
- 
-    public boolean isEmpty(){
-        return true;
+
+    public void addFirst(E value)
+    // pre: valor no es null
+    // post: egrega elementos al principio de la lista
+    {
+    // cronstruye un nuevo elemento haciendolo el principio
+        head = new DoubleLinkedNode<E>(value, head, null);
+        // arregla el final si es necesario
+        if (tail == null) tail = head;
+        count++;
     }
-    // post: returns true iff list has no elements.
- 
-    public E getLast(){
-        return null;
+
+    public E getFirst()
+    // pre: La lista no está vacía 
+    // post: regresxa el primer elemento de la lista
+    {
+        return head.value();
     }
-    // pre: list is not empty
-    // post: returns last value in list
- 
-    public E removeLast(){
-        return null;
+
+    public E getLast()
+    // pre: La lista no está vacía 
+    // post: regresa el ultimo valor de la lista
+    {
+        return isEmpty() ? tail.value() : null;
     }
-    // pre: list is not empty
-    // post: removes last value from list
- 
-    public void add(E value){
+
+    public void addLast(E value)
+    // pre: el valor no es null
+    // post: agrega el nuevo valor al final
+    {
+    // construye un nuevo elemwnto
+        tail = new DoubleLinkedNode<E>(value, null, tail);
+        // arregla el principio
+        if (head == null) head = tail;
+        count++;
     }
-    // post: value is added to tail of list
+
+
+    public E removeLast()
+    // pre: la lista no es vacia
+    // post: elimina el ultumo valor de la lista
+    {
+        DoubleLinkedNode<E> temp = tail;
+        tail = tail.previous();
+        if (tail == null) {
+            head = null;
+        } else {
+            tail.setNext(null);
+        }
+        count--;
+        return temp.value();
+    }
+
+    public E removeFirst()
+    // pre: La listo no está vacía
+    // post: Remueve y muesta el valor indicado
+    {
+        DoubleLinkedNode<E> temp = head;
+        head = head.next(); // mueve la cabeza para abajo 
+        count--;
+        return temp.value();
+    }
+
 }
