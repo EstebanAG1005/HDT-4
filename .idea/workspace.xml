@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703ce418-7ff1-4687-9c98-9dde021ec8d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pila.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HDT-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HDT-4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Doble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Doble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Encadenadas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/ListaEncadenada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Simple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Simple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Singlenton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/StackArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/StackArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/StackVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/StackVector.class" afterDir="false" />
     </list>
     <list id="5eb2c12b-e70b-45b6-9ff1-f22cd8679717" name="Changes by Franco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -31,9 +39,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -43,8 +60,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Juan Avila\OneDrive\Documentos\UVG\Segundo 2021\Algoritmos y estructuras de datos\HDT4\HDT-4" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculadoraTest.calculoList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HDT-4" />
@@ -52,8 +75,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculadoraTest.calculoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HDT-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="calculoList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.calculoStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HDT-4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="METHOD_NAME" value="calculoStack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest.calculoList" />
+        <item itemvalue="JUnit.CalculadoraTest.calculoStack" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -79,5 +124,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
