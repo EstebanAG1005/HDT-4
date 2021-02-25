@@ -1,12 +1,8 @@
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
 
-import java.util.LinkedList;
+public class DobleTest {
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class DobleTest {
-
-    @Test
+    @org.junit.Test
     void getFirst() {
         Doble<Integer> list = new Doble<Integer>();
         list.addFirst(2);

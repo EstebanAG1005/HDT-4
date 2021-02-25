@@ -1,10 +1,8 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 class StackVectorTest {
 
-    @Test
+    @org.junit.Test
     void push() {
         StackVector<Integer> calc = new StackVector<Integer>();
         calc.push(3);

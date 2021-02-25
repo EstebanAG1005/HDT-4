@@ -15,7 +15,7 @@ public class Simple<E> extends AbsList<E>{
     //add++
 
     public Simple()
-    // post: Genera Lista Vacia
+    /** post: Genera Lista Vacia**/
     {
         head = null;
         count = 0;

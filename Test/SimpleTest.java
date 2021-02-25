@@ -1,10 +1,8 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 class SimpleTest {
 
-    @Test
+    @org.junit.Test
     void getFirst() {
         Simple<Integer> list = new Simple<Integer>();
         list.addFirst(2);

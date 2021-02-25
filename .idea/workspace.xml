@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703ce418-7ff1-4687-9c98-9dde021ec8d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/CalculadoraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDT-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HDT-4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Doble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Doble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Encadenadas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/ListaEncadenada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Simple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/Simple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/Singlenton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/StackArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/StackArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HDT-4/StackVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HDT-4/StackVector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/DobleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/DobleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/StackArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/StackArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/StackVectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/StackVectorTest.java" afterDir="false" />
     </list>
     <list id="5eb2c12b-e70b-45b6-9ff1-f22cd8679717" name="Changes by Franco" comment="" />
     <option name="SHOW_DIALOG" value="false" />

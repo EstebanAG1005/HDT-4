@@ -1,10 +1,8 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 class StackArraylistTest {
 
-    @Test
+    @org.junit.Test
     void push() {
         StackArrayList<Integer> calc = new StackArrayList<Integer>();
         calc.push(3);
