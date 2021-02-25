@@ -3,6 +3,49 @@
   <component name="ChangeListManager">
     <list default="true" id="703ce418-7ff1-4687-9c98-9dde021ec8d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Calculadora.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Calculadora.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/CalculadoraTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/CalculadoraTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Doble.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Doble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/DobleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/DobleTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/DoubleLinkedNode.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/DoubleLinkedNode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/List.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Node.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Node.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Singleton.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Singleton.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/Stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/Stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/StackArrayList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/StackArrayList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/StackVector.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/StackVector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/postFix.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/postFix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/system-properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/system-properties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Javadoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Javadoc/type-search-index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AbsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Doble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DoubleLinkedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedNode.java" afterDir="false" />
