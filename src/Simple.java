@@ -22,7 +22,7 @@ public class Simple<E> extends AbsList<E>{
     }
    
     public int size()
-    // post: Regresa los elementos en lista
+    /** post: Regresa los elementos en lista**/
     {
         // Numero de elementos vistos en la lista
         int elementCount = 0;
@@ -38,7 +38,7 @@ public class Simple<E> extends AbsList<E>{
     }
   
     public void addFirst(E value)
-    // post: El valor se agrega el inicio de la lista
+    /** post: El valor se agrega el inicio de la lista**/
     {
         // Notar orden con el que pasan las coasa
         // Heas es un parametro el cual se asgina mas adelante
@@ -47,8 +47,8 @@ public class Simple<E> extends AbsList<E>{
     }
   
     public E removeFirst()
-    // pre: La listo no está vacía
-    // post: Remueve y muesta el valor indicado
+    /** pre: La listo no está vacía
+     *post: Remueve y muesta el valor indicado**/
     {
         Node<E> temp = head;
         head = head.next(); // mueve la cabeza para abajo 
@@ -57,15 +57,18 @@ public class Simple<E> extends AbsList<E>{
     }
   
     public E getFirst()
-    // pre: La lista no está vacía 
-    // post: Retorna el primer valor de la lista
+    /** pre: La lista no está vacía
+     *post: Retorna el primer valor de la lista*/
+    //
     {
         return head.value();
     }
 
     public E getLast()
-    // pre: La lista no está vacía 
-    // post: returns first value in list
+    /** pre: La lista no está vacía
+     * post: returns first value in list
+     */
+    //
     {
         Node<E> finger = head;
         Node<E> previous = null;
@@ -84,7 +87,9 @@ public class Simple<E> extends AbsList<E>{
     }
   
     public void addLast(E value)
-    // post: agrega el valor al final de la lista
+    /** post: agrega el valor al final de la lista
+     *
+     */
     {
         // el lugar de el nuevo valor
         Node<E> temp = new Node<E>(value,null);
@@ -105,8 +110,10 @@ public class Simple<E> extends AbsList<E>{
     }
 
     public E removeLast()
-    // pre: que la lista no este vacia
-    // post: elimina el ultimo valor de la lista
+    /** pre: que la lista no este vacia
+     * post: elimina el ultimo valor de la lista
+     */
+    //
     {
         Node<E> finger = head;
         Node<E> previous = null;

@@ -17,13 +17,13 @@ public class StackArrayList<E> extends AbsStack<E> {
         this.array = new ArrayList<E>();
     }
     
-    //Ingresa Valor al Stack
+    /**Ingresa Valor al Stack**/
 
     public void push(E item) {
 
         array.add(item);
     }
-    //Saca elemento del Stack
+    /**Saca elemento del Stack**/
     public E pop() {
         //El Stack no debe de estar vacio, por eso se chequea para ver si lo esta 
         if(array.isEmpty())
@@ -38,7 +38,7 @@ public class StackArrayList<E> extends AbsStack<E> {
             return v;
         }
     }
-    //Ultimo elemento del Stack
+    /**Ultimo elemento del Stack**/
     public E peek() {
 
         //El Stack no debe de estar vacio, por eso se chequea para ver si lo esta 
@@ -53,7 +53,7 @@ public class StackArrayList<E> extends AbsStack<E> {
      //Ver si esta vacio el Stack o no
      
  
-     //Regresa el Tamaño del Stack
+     /**Regresa el Tamaño del Stack**/
      public int size() {
  
          return array.size();

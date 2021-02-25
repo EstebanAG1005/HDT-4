@@ -24,32 +24,39 @@ public class DoubleLinkedNode<E>{
         if (previousElement != null)
             previousElement.nextElement = this;
     }
+
+    /** post: Construye un unico elemento **/
     public DoubleLinkedNode(E v)
-    // post: Construye un unico elemento 
+
     {
         this(v,null,null);
     }
 
+
+    /** post: Hace referencia al siguiente valor**/
     public void setNext(DoubleLinkedNode<E> next)
-    // post: Hace referencia al siguiente valor
     {
         nextElement = next;
     }
 
+
+    /** post: Hace referencia al siguiente valor**/
     public void setPrevious(DoubleLinkedNode<E> previous)
-    // post: Hace referencia al siguiente valor
+
     {
         previousElement = previous;
     }
-    
+
+    /** post: Retorna el valor asociado **/
     public E value()
-    // post: Retorna el valor asociado 
+
     {
         return data;
     }
 
+    /** post: Value se asocia con este elemento**/
     public void setValue(E value)
-    // post: Value se asocia con este elemento
+
     {
         data = value;
     }

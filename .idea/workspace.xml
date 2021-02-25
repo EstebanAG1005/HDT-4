@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703ce418-7ff1-4687-9c98-9dde021ec8d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/DobleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/DobleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/StackArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/StackArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/StackVectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/StackVectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleLinkedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackVector.java" afterDir="false" />
     </list>
     <list id="5eb2c12b-e70b-45b6-9ff1-f22cd8679717" name="Changes by Franco" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ooMJbQlAVbtaM8nLpmbFIoFWke" />
   <component name="ProjectViewState">

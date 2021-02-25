@@ -17,14 +17,14 @@ public class StackVector<E> extends AbsStack<E> {
         this.vector = new Vector<E>();
     }
 
-    //Ingresa Valor al Stack
+    /**Ingresa Valor al Stack**/
     @Override
     public void push(E data) {
 
         vector.add(data);
     }
 
-    //Saca elemento del Stack
+    /**Saca elemento del Stack**/
     @Override
     public E pop() {
         //El Stack no debe de estar vacio, por eso se chequea para ver si lo esta 
@@ -41,7 +41,7 @@ public class StackVector<E> extends AbsStack<E> {
         }
     }
 
-    //Ultimo elemento del Stack
+    /**Ultimo elemento del Stack**/
     @Override
     public E peek() {
 
@@ -57,7 +57,7 @@ public class StackVector<E> extends AbsStack<E> {
 
     
 
-    //Regresa el Tamaño del Stack
+    /**Regresa el Tamaño del Stack**/
     @Override
     public int size() {
 

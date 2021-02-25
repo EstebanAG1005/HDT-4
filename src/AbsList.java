@@ -9,16 +9,18 @@ abstract class AbsList<E> implements List<E>{
      */
     
     protected int count;
-    
+
+    /** post: Regresa true si no hay elementos en la lista**/
     public boolean isEmpty()
-   // post: Regresa true si no hay elementos en la lista
+   //
     {
         return size() == 0;
     }
-  
+
+    /**
+     pre: valor no es null
+     post: Retorna true si encuenta un valor **/
     public int size()
-    // pre: valor no es null
-    // post: Retorna true si encuenta un valor 
     {
         return count;
     }

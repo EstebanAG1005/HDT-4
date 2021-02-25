@@ -19,9 +19,9 @@ public class Doble<E> extends AbsList<E>{
         count = 0;
     }
 
+    /** pre: valor no es null
+    // post: egrega elementos al principio de la lista**/
     public void addFirst(E value)
-    // pre: valor no es null
-    // post: egrega elementos al principio de la lista
     {
     // cronstruye un nuevo elemento haciendolo el principio
         head = new DoubleLinkedNode<E>(value, head, null);
@@ -30,23 +30,25 @@ public class Doble<E> extends AbsList<E>{
         count++;
     }
 
+
+    /** pre: La lista no está vacía
+     post: regresxa el primer elemento de la lista**/
     public E getFirst()
-    // pre: La lista no está vacía 
-    // post: regresxa el primer elemento de la lista
     {
         return head.value();
     }
 
+
+    /** pre: La lista no está vacía
+    post: regresa el ultimo valor de la lista**/
     public E getLast()
-    // pre: La lista no está vacía 
-    // post: regresa el ultimo valor de la lista
     {
         return isEmpty() ? tail.value() : null;
     }
 
+    /** pre: el valor no es null
+     post: agrega el nuevo valor al final**/
     public void addLast(E value)
-    // pre: el valor no es null
-    // post: agrega el nuevo valor al final
     {
     // construye un nuevo elemwnto
         tail = new DoubleLinkedNode<E>(value, null, tail);
@@ -56,9 +58,9 @@ public class Doble<E> extends AbsList<E>{
     }
 
 
+    /** pre: la lista no es vacia
+    post: elimina el ultumo valor de la lista**/
     public E removeLast()
-    // pre: la lista no es vacia
-    // post: elimina el ultumo valor de la lista
     {
         DoubleLinkedNode<E> temp = tail;
         tail = tail.previous();
@@ -71,9 +73,10 @@ public class Doble<E> extends AbsList<E>{
         return temp.value();
     }
 
+
+    /** pre: La listo no está vacía
+     post: Remueve y muesta el valor indicado**/
     public E removeFirst()
-    // pre: La listo no está vacía
-    // post: Remueve y muesta el valor indicado
     {
         DoubleLinkedNode<E> temp = head;
         head = head.next(); // mueve la cabeza para abajo 
